@@ -1,0 +1,51 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  position: relative;
+  min-height: 100vh;
+}
+
+.header {
+  display: flex;
+  height: 64px;
+  align-items: center;
+  justify-content: space-between;
+  padding: 32px;
+  margin-bottom: 20px;
+  background-color: lightgrey;
+  box-shadow: 5px 10px 8px #888888;
+}
+
+.library {
+  font-family: monospace;
+  font-weight: 900;
+  font-size: 32px;
+}
+
+.login {
+  font-family: monospace;
+  font-weight: 900;
+  font-size: 32px;
+}
+
+.add-book {
+  display: flex;
+  font-family: monospace;
+  font-size: 32px;
+  justify-content: center;
+}
+
+.footer {
+  background-color: lightgrey;
+  height: 32px;
+  padding: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
