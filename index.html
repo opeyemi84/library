@@ -20,19 +20,34 @@
       <!-- Modal Section -->
       <div class="modal">
         <div class="modal-content">
-          <div class="title">
-            <span class="close-btn">&times;</span>
-            Add a Book
-          </div>
+          <span class="close-btn">&times;</span>
+          <div class="title">Add a Book</div>
           <br />
           <div class="inputs">
-            <input type="text" placeholder="Book Title" /><br />
-            <input type="text" placeholder="Author" /><br />
-            <input type="text" placeholder="Number of pages" /><br />
-            Check if Read :<input type="checkbox" name="" id="" /><br />
+            <form action="#" id="form">
+              <input
+                type="text"
+                placeholder="Title"
+                id="title"
+                required
+              /><br />
+              <input
+                type="text"
+                placeholder="Author"
+                id="author"
+                required
+              /><br />
+              <input
+                type="text"
+                placeholder="Number of pages"
+                id="pages"
+                required
+              /><br />
+              Check if Read :<input type="checkbox" name="" id="check" /><br />
+              <button type="submit" id="submit-btn">Submit</button>
+              <button type="reset">Clear Form</button>
+            </form>
           </div>
-
-          <button type="submit">Submit</button>
         </div>
       </div>
       <div class="footer">The Odin Project &copy 2022 Opeyemi @opsyp84</div>
