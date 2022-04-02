@@ -14,9 +14,30 @@
         <div class="login">Login</div>
       </div>
       <div class="add-book">
-        <h3>+ Add Book</h3>
+        <button id="modal-btn">+ Add a Book</button>
+      </div>
+
+      <!-- Modal Section -->
+      <div class="modal">
+        <div class="modal-content">
+          <div class="title">
+            <span class="close-btn">&times;</span>
+            Add a Book
+          </div>
+          <br />
+          <div class="inputs">
+            <input type="text" placeholder="Book Title" /><br />
+            <input type="text" placeholder="Author" /><br />
+            <input type="text" placeholder="Number of pages" /><br />
+            Check if Read :<input type="checkbox" name="" id="" /><br />
+          </div>
+
+          <button type="submit">Submit</button>
+        </div>
       </div>
       <div class="footer">The Odin Project &copy 2022 Opeyemi @opsyp84</div>
     </div>
+
+    <script src="app.js"></script>
   </body>
 </html>
