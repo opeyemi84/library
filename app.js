@@ -10,7 +10,7 @@ closeBtn.onclick = function () {
   modal.style.display = "none";
 };
 
-windows.onclick = function (e) {
+window.onclick = function (e) {
   if (e.target == modal) {
     modal.style.display = "none";
   }
