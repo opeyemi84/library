@@ -1,6 +1,13 @@
 const modalBtn = document.getElementById("modal-btn");
 const modal = document.querySelector(".modal");
 const closeBtn = document.querySelector(".close-btn");
+const form = document.getElementById("form");
+
+form.addEventListener("submit", function handleSubmit(e) {
+  e.preventDefault();
+  //code to submit form here
+  form.reset();
+});
 
 modalBtn.onclick = function () {
   modal.style.display = "block";
