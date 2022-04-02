@@ -38,6 +38,17 @@
   justify-content: center;
 }
 
+.add-book button {
+  height: 32px;
+  width: 128px;
+  cursor: pointer;
+  border: none;
+  border-radius: 8px;
+  background-color: blue;
+  color: white;
+  font-size: 16px;
+}
+
 .footer {
   background-color: lightgrey;
   height: 32px;
@@ -48,4 +59,10 @@
   position: absolute;
   bottom: 0;
   width: 100%;
+}
+
+/* Modal Popup Styling */
+.modal {
+  display: flex;
+  border: 1px solid red;
 }
